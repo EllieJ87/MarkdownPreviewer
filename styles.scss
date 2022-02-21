@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// COLOURS //
+$Fiord: #4C5760;
+$Pewter_Blue: #93A8AC;
+$Cardinal: #AF1B3F;
+$Floral_White: #FFFCF2;
+$Rich_Black: #0D1317;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rokkitt', serif;
+    background-color: $Floral_White;
+    color: $Rich_Black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.title-header {
+    border: 1px solid $Rich_Black;
+    margin: 0;
+    padding: 8px;
+    background-color: $Fiord;
+    color: $Floral_White;
+    box-shadow: 1px 1px 5px 2px $Fiord;
+}
+
+.fa-solid::before {
+    content: "\f7e4";
+   font-family: 'Font Awesome 5 Pro';
+   font-weight: 900;
+   font-style: normal;
+   padding-right: 10px;
+   font-size: 0.75em;
+ }
+
+ #editor, #preview {
+    border: 1px solid $Rich_Black;
+    padding: 5px;
+    background-color: $Pewter_Blue;
+    color: $Rich_Black;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px 2px $Fiord;
+    margin-bottom: 30px;
+ }
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px $Pewter_Blue; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $Fiord; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $Floral_White; 
+  }
+
+
+ 

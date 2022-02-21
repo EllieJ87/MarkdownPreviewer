@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rokkitt', serif;
+  background-color: #FFFCF2;
+  color: #0D1317;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+
+.title-header {
+  border: 1px solid #0D1317;
+  margin: 0;
+  padding: 8px;
+  background-color: #4C5760;
+  color: #FFFCF2;
+  -webkit-box-shadow: 1px 1px 5px 2px #4C5760;
+          box-shadow: 1px 1px 5px 2px #4C5760;
+}
+
+.fa-solid::before {
+  content: "\f7e4";
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  font-style: normal;
+  padding-right: 10px;
+  font-size: 0.75em;
+}
+
+#editor, #preview {
+  border: 1px solid #0D1317;
+  padding: 5px;
+  background-color: #93A8AC;
+  color: #0D1317;
+  border-radius: 0;
+  -webkit-box-shadow: 1px 1px 5px 2px #4C5760;
+          box-shadow: 1px 1px 5px 2px #4C5760;
+  margin-bottom: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #93A8AC;
+          box-shadow: inset 0 0 5px #93A8AC;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4C5760;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFCF2;
+}
+/*# sourceMappingURL=styles.css.map */
