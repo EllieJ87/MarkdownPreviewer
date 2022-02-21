@@ -8,7 +8,7 @@ The overall aim was to acheive a Markdown Previewer Webpage, this was only focus
 
 ![Markdown Previewer](images/responsive-design.jpg) 
 
-A deployed version of my website can be found [here](https://elliej87.github.io/PersonalPortfolioWebpage/)
+A deployed version of my website can be found [here](https://elliej87.github.io/MarkdownPreviewer/)
 
 This domain will allow you to access the Tribute Page website.
 
@@ -195,7 +195,7 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 
 ### <a name="repositorylink">Repository Link</a>
 
-[Personal Portfolio Webpage](https://elliej87.github.io/PersonalPortfolioWebpage/)
+[markdown Previewer](https://elliej87.github.io/MarkdownPreviewer/)
 
 ### <a name="runningcodelocally">Running Code Locally</a>
 
